@@ -6,6 +6,7 @@ import { BsInfoCircle } from 'react-icons/bs';
 import { MdOutlineDelete } from 'react-icons/md';
 import { useState } from 'react';
 import BookModal from './BookModal';
+import { Factory } from 'react';
 
 const BookSingleCard = ({ book }) => {
   const [showModal, setShowModal] = useState(false);
@@ -47,3 +48,4 @@ const BookSingleCard = ({ book }) => {
 };
 
 export default BookSingleCard;
+//

@@ -7,6 +7,7 @@ import { BsInfoCircle } from 'react-icons/bs';
 import { MdOutlineAddBox, MdOutlineDelete } from 'react-icons/md';
 import BooksTable from '../components/home/BooksTable';
 import BooksCard from '../components/home/BooksCard';
+import { Factory } from 'react';
 
 const Home = () => {
   const [books, setBooks] = useState([]);
@@ -61,3 +62,4 @@ const Home = () => {
 };
 
 export default Home;
+//

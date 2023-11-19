@@ -1,6 +1,7 @@
 import { AiOutlineClose } from 'react-icons/ai';
 import { PiBookOpenTextLight } from 'react-icons/pi';
 import { BiUserCircle } from 'react-icons/bi';
+import { Factory } from 'react';
 
 const BookModal = ({ book, onClose }) => {
   return (
@@ -43,3 +44,4 @@ const BookModal = ({ book, onClose }) => {
 };
 
 export default BookModal;
+//
